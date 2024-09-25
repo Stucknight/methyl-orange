@@ -40,3 +40,19 @@ a {
     color-scheme: dark;
   }
 }
+
+#canvas {
+  position: absolute; /* Position it to cover the container */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  display: block; /* Remove inline-block space */
+}
+
+#container {
+  position: relative;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling */
+}

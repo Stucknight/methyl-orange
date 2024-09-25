@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "webgpu": "^0.1.16"
+  },
+  "devDependencies": {
+    "raw-loader": "^4.0.2"
   }
 }
