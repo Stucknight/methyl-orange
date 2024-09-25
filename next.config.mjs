@@ -6,7 +6,8 @@ const nextConfig = {
             use: 'raw-loader',
         });
         return config;
-    }
+    },
+    output: "export"
 };
 
 export default nextConfig;
